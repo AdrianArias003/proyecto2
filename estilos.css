@@ -1,0 +1,58 @@
+:root{
+    --color0: rgb(255, 61, 2);
+    --color1: rgb(35, 182, 187);
+    --color2: rgb(150, 206, 20);
+    --color3: rgb(110, 3, 3);
+    --color4: rgb(106, 35, 187);
+}
+.navbar{
+    background-color: var(--color3) !important;
+}    
+.jumbotron{
+    background-image: url(pizza.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: var(--color3);
+}
+.jumbotron p{
+    color: var(--color0);
+}
+.cuadros{
+    min-height: 600px;
+    width: 100%;
+    background-color: var(--color3);
+    color: var(--color2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(pizza2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cuadros .item{
+    height: 300px;
+    width: 300px;
+    background-color: var(--color0);
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url(pizza2.jpg);
+}
+.item:hover{
+    transform: scale(1.4);
+    transition: all 1.4s;
+}
+.cuadros p{
+    color: black;
+    text-align: justify;
+}
+.cuadros .item p{
+    color: rgb(8, 8, 10);
+}
+h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
