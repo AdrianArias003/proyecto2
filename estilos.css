@@ -1,6 +1,6 @@
 :root{
     --color0: rgb(255, 61, 2);
-    --color1: rgb(35, 182, 187);
+    --color1: rgb(134, 55, 24);
     --color2: rgb(150, 206, 20);
     --color3: rgb(110, 3, 3);
     --color4: rgb(106, 35, 187);
@@ -9,7 +9,7 @@
     background-color: var(--color3) !important;
 }    
 .jumbotron{
-    background-image: url(pizza.jpg);
+    background-image: url(img/pizza.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -26,19 +26,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(pizza2.jpg);
+    background-image: url(img/pizza2.jpg);
     background-size: cover;
     background-position: center;
 }
 .cuadros .item{
     height: 300px;
     width: 300px;
-    background-color: var(--color0);
     border-radius: 10px;
     padding: 20px 20px;
     margin-top: 20px;
     margin-left: 20px;
-    background-image: url(pizza2.jpg);
+    background-image: url(img/pizza2.jpg);
 }
 .item:hover{
     transform: scale(1.4);
@@ -55,4 +54,77 @@ h2{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: oblique;
+}
+.texto{
+    font-size: 30px;
+    color: var(--color1);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.platos{
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    background-image: url(img/fondo\ de\ pizza\ para\ pagina\ de\ informacion.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;  
+}
+.platos .item{
+    height: 200px;
+    width: 300px;
+    padding: 20px 20px;
+    margin: 30px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+
+}
+.platos .item:hover{
+    transform: scale(1.2);
+    transition: 0.9;
+}
+.platos .item1{
+    background-image: url(img/pizza\ de\ champinon.jpg);
+}
+.platos .item2{
+    background-image: url(img/pizza\ de\ peperoni.jpg);
+}
+.platos .item3{
+    background-image: url(img/pizza\ mixta.jpg);
+}
+.platos .item4{
+    background-image: url(img/pizza\ vegetal.png);
+}
+.platos .item5{
+    background-image: url(img/pizza\ full\ mozarella.png);
+}
+.platos .item6{
+    background-image: url(img/pizza\ queso\ corteza.png);
+}
+.platos .item7{
+    background-image: url(img/pizza\ garlic.png);
+}
+.platos .item8{
+    background-image: url(img/pizza\ vegana.png);
+}
+.platos .item9{
+    background-image: url(img/pizza\ tomate.png);
+}
+.i-footer{
+    height: 30px;
+    width: 70px;
+    background-color: var(--color0);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+    
+}
+.i-footer a{
+    color: black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
